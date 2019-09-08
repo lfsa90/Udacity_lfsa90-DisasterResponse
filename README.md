@@ -18,9 +18,11 @@ This code was written under the Udacity Data Scientist Nanodegree Project.
   * flask
   * plotly
   
- * Clone this GIT repository:
- git clone https://github.com/matteobonanomi/disaster-response.git
-  
+* Clone this GIT repository:
+```
+git clone https://github.com/matteobonanomi/disaster-response.git
+```
+ 
 ## Introduction / Motivation <a name="Motivation"></a>
 This is an Udacity Data Science Nanodegree project.
 The aim is apply Natural Language Processing tools 
@@ -36,8 +38,8 @@ Price preditction - main factors influencing price.
 Udacity_lfsa90-DisasterResponse/
 └── app/
     └── templates/
-       ├── go.html
-       ├── main.html
+        ├── go.html
+        ├── main.html
     ├── run.py
 └── data/
     ├── DisasterResponce.db
@@ -50,16 +52,16 @@ Udacity_lfsa90-DisasterResponse/
     
 ```
 1) app
- * _templates_: html files for the web application
- * _run.py_: file to run the web app
+  * _templates_: html files for the web application
+  * _run.py_: file to run the web app
 2) data
- * _disaster_categories.csv_: dataset including all the categories
- * _disaster_messages.csv_: dataset including all the messages
- * _process_data.py_: python script (ETL pipeline) to read, clean and save data into a database
- * _DisasterResponse.db_: output of _process_data.py_ (SQLite database with cleansed data)
+  * _disaster_categories.csv_: dataset including all the categories
+  * _disaster_messages.csv_: dataset including all the messages
+  * _process_data.py_: python script (ETL pipeline) to read, clean and save data into a database
+  * _DisasterResponse.db_: output of _process_data.py_ (SQLite database with cleansed data)
 3) models
- * _train_calssifier.py_: python script to build Machine Learning pipeline. The ouput is the classifier in a pickle file
- * _classifier.pkl_: output of _train_classifier.py_ (trained classifier to classify new messages)
+  * _train_calssifier.py_: python script to build Machine Learning pipeline. The ouput is the classifier in a pickle file
+  * _classifier.pkl_: output of _train_classifier.py_ (trained classifier to classify new messages)
  
 
 ## Results <a name="Results"></a>

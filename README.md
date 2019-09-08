@@ -19,19 +19,35 @@ This code was written under the Udacity Data Scientist Nanodegree Project.
   * plotly
   
 ## Introduction / Motivation <a name="Motivation"></a>
-* The code was developed and tested on anaconda with python 3.73. Nevertheless, it should run with no issues using Python 3.* in any other environment.
-* The following packages must be installed:
-  * nltk (additional packages will automatically be downloaded once the main routine is executed)
-  * flask
-  * plotly
+This is an Udacity Data Science Nanodegree project.
+The aim is to build a Natural Language Processing tool For this project I chose Airbnb-Lisbon (my hometown) 2019 dataset (here), and was mainly interested in finding the answers to the following questions:
+
+How does price fluctuate over time?;
+What is the availability trend over time?;
+What type of listings do we have in Lisbon? - price range, house types and listings by neighbourood;
+How is availability related wity price, host type, number of reviews and scores, and room type?;
+Price preditction - main factors influencing price.
  
 ## Data <a name="Data"></a>
 ```text
 Udacity_lfsa90-DisasterResponse/
+└── app/
+    ├── templates
+    └── data/
+       ├── DisasterResponce.db
+       ├── disaster_categories.csv
+    ├── disaster_messages.csv
+    ├── process_data.py
+    ├── disaster_categories.csv
+    ├── disaster_messages.csv
+    ├── process_data.py
 └── data/
-    ├── listings_complete.csv
-    ├── calendar.csv
-    ├── listings.csv
+    ├── DisasterResponce.db
+    ├── disaster_categories.csv
+    ├── disaster_messages.csv
+    ├── process_data.py
+
+    
 ```
 * __DataScience-LisbonAirbnb.ipynb__: Notebook with all the scripts used to analyse data and to answer the questions mentioned above
 * __Data/listings.csv__: Listings data for Lisbon ([Airbnb](https://airbnb.com/))
@@ -65,8 +81,7 @@ Also, the most frequent property type is apartment, followed up by (entire) hous
 
 The features which characterize the house/listing topology (bathrooms, bedrooms, accomodates) are on the top 5 of the top 10 important features, meaning these features have a high impact on the price.
 
-
-### Instructions:
+## Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database

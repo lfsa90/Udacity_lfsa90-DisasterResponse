@@ -18,9 +18,12 @@ This code was written under the Udacity Data Scientist Nanodegree Project.
   * flask
   * plotly
   
+ * Clone this GIT repository:
+ git clone https://github.com/matteobonanomi/disaster-response.git
+  
 ## Introduction / Motivation <a name="Motivation"></a>
 This is an Udacity Data Science Nanodegree project.
-The aim is to build a Natural Language Processing tool For this project I chose Airbnb-Lisbon (my hometown) 2019 dataset (here), and was mainly interested in finding the answers to the following questions:
+The aim is apply Natural Language Processing tools 
 
 How does price fluctuate over time?;
 What is the availability trend over time?;
@@ -32,27 +35,32 @@ Price preditction - main factors influencing price.
 ```text
 Udacity_lfsa90-DisasterResponse/
 └── app/
-    ├── templates
-    └── data/
-       ├── DisasterResponce.db
-       ├── disaster_categories.csv
-    ├── disaster_messages.csv
-    ├── process_data.py
-    ├── disaster_categories.csv
-    ├── disaster_messages.csv
-    ├── process_data.py
+    └── templates/
+       ├── go.html
+       ├── main.html
+    ├── run.py
 └── data/
     ├── DisasterResponce.db
     ├── disaster_categories.csv
     ├── disaster_messages.csv
     ├── process_data.py
-
+└── models/
+    ├── train_classifier.py
+    ├── classifier.pkl
     
 ```
-* __DataScience-LisbonAirbnb.ipynb__: Notebook with all the scripts used to analyse data and to answer the questions mentioned above
-* __Data/listings.csv__: Listings data for Lisbon ([Airbnb](https://airbnb.com/))
-* __Data/listings_complete.csv__: Detailed Listings data for Lisbon ([Airbnb](https://airbnb.com/))
-* __Data/calendar.csv__: Detailed Calendar Data for listings in Lisbon ([Airbnb](https://airbnb.com/))
+1) app
+ * _templates_: html files for the web application
+ * _run.py_: file to run the web app
+2) data
+ * _disaster_categories.csv_: dataset including all the categories
+ * _disaster_messages.csv_: dataset including all the messages
+ * _process_data.py_: python script (ETL pipeline) to read, clean and save data into a database
+ * _DisasterResponse.db_: output of _process_data.py_ (SQLite database with cleansed data)
+3) models
+ * _train_calssifier.py_: python script to build Machine Learning pipeline. The ouput is the classifier in a pickle file
+ * _classifier.pkl_: output of _train_classifier.py_ (trained classifier to classify new messages)
+ 
 
 ## Results <a name="Results"></a>
 The detailed analysis and main conclusions/results are availabe in [here](https://medium.com/@luisf.almeida90/lisbon-an-amazing-destination-b36edff06967)).

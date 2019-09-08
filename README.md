@@ -12,9 +12,9 @@ This code was written under the Udacity Data Scientist Nanodegree Project.
 ## Installation <a name="Installation"></a>
 * The code was developed and tested on anaconda with python 3.73. Nevertheless, it should run with no issues using Python 3.* in any other environment.
 * The following packages must be installed:
-  *nltk (additional packages will automatically be downloaded once the main routine is executed)
-  *flask
-  *plotly
+  * nltk (additional packages will automatically be downloaded once the main routine is executed)
+  * flask
+  * plotly
  
 ## Data <a name="Data"></a>
 ```text

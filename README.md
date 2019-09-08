@@ -7,7 +7,7 @@ This code was written under the Udacity Data Scientist Nanodegree Project.
 1. [Installation](#Installation)
 2. [Introduction / Motivation](#Motivation)
 3. [Data](#Data)
-4. [Results](#Results)
+4. [Screenshots](#Screenshots)
 5. [Instructions](#Instructions)
 6. [Licensing, Authors, and Acknowledgements](#Licensing)
 
@@ -20,18 +20,13 @@ This code was written under the Udacity Data Scientist Nanodegree Project.
   
 * Clone this GIT repository:
 ```
-git clone https://github.com/matteobonanomi/disaster-response.git
+git clone https://github.com/lfsa90/Udacity_lfsa90-DisasterResponse.git
 ```
  
 ## Introduction / Motivation <a name="Motivation"></a>
 This is an Udacity Data Science Nanodegree project.
-The aim is apply Natural Language Processing tools 
-
-How does price fluctuate over time?;
-What is the availability trend over time?;
-What type of listings do we have in Lisbon? - price range, house types and listings by neighbourood;
-How is availability related wity price, host type, number of reviews and scores, and room type?;
-Price preditction - main factors influencing price.
+The aim of this project is to apply Natural Language Processing and Machine Learning in building a model capable of automatically classify disaster messages (messages shared by people during disasters) - the dataset was provided by Figure Eight.
+The final result is a web application that enables a user to type in a certain sentence and check the corresponding category in real time (model output).
  
 ## Data <a name="Data"></a>
 ```text
@@ -64,32 +59,8 @@ Udacity_lfsa90-DisasterResponse/
   * _classifier.pkl_: output of _train_classifier.py_ (trained classifier to classify new messages)
  
 
-## Results <a name="Results"></a>
-The detailed analysis and main conclusions/results are availabe in [here](https://medium.com/@luisf.almeida90/lisbon-an-amazing-destination-b36edff06967)).
+## Screenshots <a name="Screenshots"></a>
 
-* Price fluctuation over time
-
-![price_vs_time](price_vs_time.png)
-For 2019, the prices decrease after Summer time until December.
-Then, close to New Year's Eve, there is sudden increase in average price as it would be expected.
-For 2020, the prices are considerably higher than in 2019, and seem to steadily increase from the begining of the year.
-
-
-* Listings - price tag and property types
-
-![pricetag](pricetag.png)
-
-![proptype](proptype.png)
-
-As seen in the bar chart above, most of the listings have a price tag between 20\\$ and 140\\$
-Also, the most frequent property type is apartment, followed up by (entire) house.
-
-
-* Main factors influencing price
-
-![pricepred](pricepred.png)
-
-The features which characterize the house/listing topology (bathrooms, bedrooms, accomodates) are on the top 5 of the top 10 important features, meaning these features have a high impact on the price.
 
 ## Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.

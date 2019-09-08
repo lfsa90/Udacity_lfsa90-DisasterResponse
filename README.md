@@ -5,11 +5,20 @@ This code was written under the Udacity Data Scientist Nanodegree Project.
 ## Table of Contents
 
 1. [Installation](#Installation)
-2. [Data](#Data)
-3. [Results](#Results)
-4. [Licensing, Authors, and Acknowledgements](#Licensing)
+2. [Introduction / Motivation](#Motivation)
+3. [Data](#Data)
+4. [Results](#Results)
+5. [Instructions](#Instructions)
+6. [Licensing, Authors, and Acknowledgements](#Licensing)
 
 ## Installation <a name="Installation"></a>
+* The code was developed and tested on anaconda with python 3.73. Nevertheless, it should run with no issues using Python 3.* in any other environment.
+* The following packages must be installed:
+  * nltk (additional packages will automatically be downloaded once the main routine is executed)
+  * flask
+  * plotly
+  
+## Introduction / Motivation <a name="Motivation"></a>
 * The code was developed and tested on anaconda with python 3.73. Nevertheless, it should run with no issues using Python 3.* in any other environment.
 * The following packages must be installed:
   * nltk (additional packages will automatically be downloaded once the main routine is executed)
@@ -18,9 +27,7 @@ This code was written under the Udacity Data Scientist Nanodegree Project.
  
 ## Data <a name="Data"></a>
 ```text
-./
-├── DataScience-LisbonAirbnb.ipynb
-├── utility.py
+Udacity_lfsa90-DisasterResponse/
 └── data/
     ├── listings_complete.csv
     ├── calendar.csv
@@ -59,12 +66,6 @@ Also, the most frequent property type is apartment, followed up by (entire) hous
 The features which characterize the house/listing topology (bathrooms, bedrooms, accomodates) are on the top 5 of the top 10 important features, meaning these features have a high impact on the price.
 
 
-## Licensing, Authors, and Acknowledgements <a name="Licensing"></a>
-* Thanks to Udacity for all the useful insights and interesting challenges!
-* Thanks to Airbnb for making these data sets available to everyone!
-
-
-
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
@@ -77,3 +78,9 @@ The features which characterize the house/listing topology (bathrooms, bedrooms,
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+
+
+## Licensing, Authors, and Acknowledgements <a name="Licensing"></a>
+* Thanks to Udacity for all the useful insights and interesting challenges!
+* Thanks to Airbnb for making these data sets available to everyone!
+

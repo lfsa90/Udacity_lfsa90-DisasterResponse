@@ -61,9 +61,9 @@ Udacity_lfsa90-DisasterResponse/
 
 ## Screenshots <a name="Screenshots"></a>
 
-![scr1](scr1.png)
+![scr1](scr1.PNG)
 
-![scr2](scr2.png)
+![scr2](scr2.PNG)
 
 ## Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
